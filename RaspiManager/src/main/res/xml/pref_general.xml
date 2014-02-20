@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="url"
+        android:title="@string/pref_url_display"
+        android:defaultValue="@string/pref_url_default"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="user"
+        android:title="@string/pref_user_display"
+        android:defaultValue="@string/pref_user_default"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="password"
+        android:title="@string/pref_password_display"
+        android:defaultValue="@string/pref_password_default"
+        android:selectAllOnFocus="true"
+        android:password="true"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+</PreferenceScreen>
